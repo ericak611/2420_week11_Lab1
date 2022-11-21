@@ -1,0 +1,3 @@
+#!/usr/bin/env bash 
+
+rsync -aPv /etc/gss -e "ssh -i ~/.ssh/DO_key user1@178.128.242.112":/home/user1/backup
